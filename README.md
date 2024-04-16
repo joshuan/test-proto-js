@@ -19,7 +19,8 @@ Response: {
   message: 'Hello Vasya',
   peopleUndefined: null,
   peopleNull: null,
-  peopleObject: { name: 'Vasya', age: 32 }
+  peopleObject: { name: 'Vasya', age: 32 },
+  peopleUnset: null
 }
 ```
 
