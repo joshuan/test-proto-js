@@ -9,7 +9,9 @@ message Person {
 
 message Greeting {
     string message = 1;
-    repeated Person people = 2;
+    Person peopleUndefined = 2;
+    Person peopleNull = 3;
+    Person peopleObject = 4;
 }
 
 service HelloWorldService {
